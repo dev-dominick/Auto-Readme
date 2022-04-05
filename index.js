@@ -6,6 +6,16 @@ const inquirer = require("inquirer")
 const generateMarkdown = require("./utils/generateMarkdown.js")
 
 // TODO: Create an array of questions for user input
+//* Title ====
+//* Description =====
+//* Table of Contents - Send you to corresponding section ====
+//* Installation ===
+//* Usage =====
+//* License - list ======
+//* Contributing =====
+//* Tests
+//*questions - link to github, and how to reach me email address=====
+
 const questions = () => {
   return inquirer.prompt([
     {
@@ -27,23 +37,34 @@ const questions = () => {
     },
     {
       type: "input",
-      message: "What languages do you know?",
-      name: "languages",
+      message: "What are the steps required to install your project?",
+      name: "installation",
     },
     {
       type: "input",
-      message: "What is your preferred method of communication?",
-      name: "communication",
+      message: "Provide instructions and examples for use of application.",
+      name: "usage",
+    },
+    {
+      type: "list",
+      message: "Please select a license type to include.",
+      choices: ["MIT License", "Other"],
+      name: "license",
     },
     {
       type: "input",
-      message: "What languages do you know?",
-      name: "languages",
+      message: "If you want others to contribute, please explain how they could do so.",
+      name: "contributing",
     },
     {
       type: "input",
-      message: "What is your preferred method of communication?",
-      name: "communication",
+      message: "List any tests you have done on your application?",
+      name: "test",
+    },
+    {
+      type: "input",
+      message: "How would you like others to contact you with questions?",
+      name: "questions",
     },
   ]);
   
