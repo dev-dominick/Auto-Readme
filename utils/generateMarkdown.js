@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === "MIT License") {
-    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
   } else if (license === "Apache 2.0 License") {
     return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
   } else if (license === "Boost Software License 1.0"){
@@ -39,15 +39,19 @@ function generateMarkdown(data) {
 
     ${data.usage}
 
+## Credits
+
+    ${data.credits}
+
 ## License 
 
     ${data.license}
 
-    ${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.license)}
 
-## Contribute 
+## How to Contribute 
 
-    ${data.contributing}
+    ${data.contribute}
 
 ## Test 
 

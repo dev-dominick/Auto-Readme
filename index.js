@@ -42,10 +42,15 @@ const questions = [
     name: "usage",
   },
   {
+    type: "input",
+    message: "Please give credit to any resources you have used?",
+    name: "credits",
+  },
+  {
     type: "list",
     message: "Please select a license type to include.",
     choices: [
-      "MIT License", 
+      "MIT License",
       "Apache 2.0 License",
       "Boost Software License 1.0",
     ],
@@ -55,7 +60,7 @@ const questions = [
     type: "input",
     message:
       "If you want others to contribute, please explain how they could do so.",
-    name: "contributing",
+    name: "contribute",
   },
   {
     type: "input",
@@ -64,7 +69,8 @@ const questions = [
   },
   {
     type: "input",
-    message: "How would you like others to contact you with questions? Email, GitHub, etc...",
+    message:
+      "How would you like others to contact you with questions? Email, GitHub, etc...",
     name: "questions",
   },
   {
