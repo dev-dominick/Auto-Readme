@@ -1,8 +1,8 @@
-# readme generator
+# 
 
 ## Description 
 
-    no
+    
 
 ## Table of Contents 
 
@@ -13,34 +13,34 @@
 
 ## Installations 
 
-    click button
+    
 
 ## Usage 
 
-    no
+    
 
 ## License 
 
-    Apache 2.0 License
+    MIT License
 
-    [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contribute 
 
-    N/A
+    
 
 ## Test 
 
-    no
+    
 
 ## Questions 
 
-    idc 
+     
 
 ## Contact Me
   
-    Email: no
+    Email: 
 
-    GitHub: no
+    GitHub: 
 
 
