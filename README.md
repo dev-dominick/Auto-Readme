@@ -1,8 +1,8 @@
-# 
+# Auto-Readme
 
 ## Description 
 
-    
+    I created a terminal app that takes in user inputs and displays them on a newly created README.md file
 
 ## Table of Contents 
 
@@ -13,34 +13,40 @@
 
 ## Installations 
 
-    
+     Go to my github profile and click the link to my app
 
 ## Usage 
 
-    
+    See video.
+
+    https://watch.screencastify.com/v/0Ak1O7iUCntVjozvsVsx
+
+## Credits
+
+    Isaak - https://github.com/CallMeIce Kyle - https://github.com/kgiunta    
 
 ## License 
 
-    Boost Software License 1.0
+    MIT License
 
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Contribute 
+## How to Contribute 
 
-    
+     Contact me to request contribution.
 
 ## Test 
 
-    
+    N/A
 
 ## Questions 
 
-     
+    Contact me by email or github 
 
 ## Contact Me
   
-    Email: 
+    Email: Domalbano35@gmail.com
 
-    GitHub: 
+    GitHub: github.com/dev-dominick
 
 
