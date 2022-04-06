@@ -2,19 +2,11 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 
-// This is connecting to js page that generates markdown file
+
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
-//* Title ====
-//* Description =====
-//* Table of Contents - Send you to corresponding section ====
-//* Installation ===
-//* Usage =====
-//* License - list ======
-//* Contributing =====
-//* Tests
-//*questions - link to github, and how to reach me email address=====
+
 
 const questions = [
   {
@@ -28,17 +20,17 @@ const questions = [
       "Provide a short description explaining the what, why, and how of your project.?",
     name: "description",
   },
-  {
-    type: "checkbox",
-    message: "Select which contents you would like in your Table of Contents",
-    choices: [
-      "[Installation](#Installation)",
-      "[Usage](#usage)",
-      "[Credits](#Credits)",
-      "[License](#License)",
-    ],
-    name: "tableOfContents",
-  },
+  // {
+  //   type: "checkbox",
+  //   message: "Select which contents you would like in your Table of Contents",
+  //   choices: [
+  //     "[Installation](#Installation)",
+  //     "[Usage](#usage)",
+  //     "[Credits](#Credits)",
+  //     "[License](#License)",
+  //   ],
+  //   name: "tableOfContents",
+  // },
   {
     type: "input",
     message: "What are the steps required to install your project?",
@@ -53,7 +45,7 @@ const questions = [
     type: "list",
     message: "Please select a license type to include.",
     choices: [
-      "MIT License",
+      "MIT License", 
       "Apache 2.0 License",
       "Boost Software License 1.0",
     ],
@@ -72,29 +64,28 @@ const questions = [
   },
   {
     type: "input",
-    message: "How would you like others to contact you with questions?",
+    message: "How would you like others to contact you with questions? Email, GitHub, etc...",
     name: "questions",
+  },
+  {
+    type: "input",
+    message: "Please enter your email.",
+    name: "email",
+  },
+  {
+    type: "input",
+    message: "Please enter your github.",
+    name: "github",
   },
 ];
 
 // TODO: Create a function to write README file
-// const writeToFile = data => {
-//   fs.writeFile("README.md", data, err => {
-//     if (err) {
-//       console.log(err);
-//       return;
-//     } else {
-//       console.log("Success!");
-//     }
-//   })
-// };
+
 
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((answers) => {
     console.log(answers);
-    // writeToFile();
-    // generateMarkdown(answers);
 
     fs.writeFile("README.md", generateMarkdown(answers), (err) => {
       if (err) {
@@ -107,5 +98,5 @@ function init() {
   });
 }
 
-// Function call to initialize app
+
 init();

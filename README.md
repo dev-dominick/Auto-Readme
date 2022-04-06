@@ -1,37 +1,46 @@
-# jkadfs;
+# readme generator
 
-##Description 
- 
-jaksf;
+## Description 
 
-##Table of Contents 
- 
-[Installation](#Installation),[Usage](#usage),[Credits](#Credits),[License](#License);
+    no
 
-##Installations 
- 
-jas;;
+## Table of Contents 
 
-##Usage 
- 
-dfls;;
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-##License 
- 
-MIT License;
+## Installations 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    click button
 
-##Contribute 
- 
-;
+## Usage 
 
-##Test 
- 
-;
+    no
 
-##Questions 
- 
-;
+## License 
+
+    Apache 2.0 License
+
+    [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+## Contribute 
+
+    N/A
+
+## Test 
+
+    no
+
+## Questions 
+
+    idc 
+
+## Contact Me
+  
+    Email: no
+
+    GitHub: no
 
 
