@@ -31,7 +31,12 @@ const questions = [
   {
     type: "checkbox",
     message: "Select which contents you would like in your Table of Contents",
-    choices: ["[Installation]", "[Usage]", "[Credits]", "[License]"],
+    choices: [
+      "[Installation](#Installation)",
+      "[Usage](#usage)",
+      "[Credits](#Credits)",
+      "[License](#License)",
+    ],
     name: "tableOfContents",
   },
   {
@@ -47,7 +52,11 @@ const questions = [
   {
     type: "list",
     message: "Please select a license type to include.",
-    choices: ["MIT License", "Other"],
+    choices: [
+      "MIT License",
+      "Apache 2.0 License",
+      "Boost Software License 1.0",
+    ],
     name: "license",
   },
   {
